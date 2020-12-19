@@ -38,7 +38,7 @@
    - **Requirements:**
      - You have to use SASS.
      - Website must be responsive.
-     - Deadline 03.01.2021.
+     - Deadline 05.01.2021.
 ## Some other useful resources:
 
 - Other preprocessor:
