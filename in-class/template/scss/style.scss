@@ -1,0 +1,23 @@
+// @import "reset.scss";
+// Custom.scss
+// Option B: Include parts of Bootstrap
+// Required
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+// Optional
+@import "../node_modules/bootstrap/scss/reboot";
+@import "../node_modules/bootstrap/scss/grid";
+//
+@import "./helpers/vars.scss";
+@import "./helpers/mixins.scss";
+//
+@import "./sections/main.scss";
+@import "./sections/images.scss";
+@import "./sections/form.scss";
+
+// .container {
+// 	max-width: 980px;
+// 	margin: 0 auto;
+// }

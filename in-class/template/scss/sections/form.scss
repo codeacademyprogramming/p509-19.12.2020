@@ -1,0 +1,72 @@
+.form {
+	background-color: $grey;
+	padding: 32px;
+	@include mobile {
+		background-color: red;
+		font-size: large;
+		background: #000;
+	}
+	@include tablet {
+		background-color: pink;
+	}
+
+	h1 {
+		font-size: 24px;
+		text-align: center;
+	}
+	p {
+		margin-top: 32px;
+		@include hover {
+			display: grid;
+			grid-row: 1;
+			grid-row: 1;
+			grid-row: 1;
+			grid-row: 1;
+			grid-row: 1;
+			grid-row: 1;
+			grid-row: 1;
+			grid-row: 1;
+		}
+	}
+
+	p:not([disabled]):hover {
+		display: grid;
+		grid-row: 1;
+	}
+
+	.input-group {
+		margin-bottom: 10px;
+		label {
+		}
+		input {
+			padding: 8px;
+			display: block;
+			width: 100%;
+			border: 1px solid $grey-3;
+		}
+	}
+	a {
+		margin-top: 32px;
+		color: $grey-2;
+		display: inline-block;
+		@include mobile {
+			margin-top: 16px;
+		}
+		em {
+			text-decoration: underline;
+			font-style: normal;
+		}
+	}
+}
+
+// @media (max-width: 980px) {
+// 	.form {
+// 		background-color: $grey-3;
+// 		h1 {
+// 			font-size: 20px;
+// 		}
+// 		p {
+// 			margin-top: 16px;
+// 		}
+// 	}
+// }

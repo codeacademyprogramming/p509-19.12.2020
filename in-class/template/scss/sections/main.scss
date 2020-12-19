@@ -1,0 +1,61 @@
+.main {
+	margin-bottom: 28px;
+	position: relative;
+	padding: 300px 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: $grey;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url("https://www.w3schools.com/w3images/photographer.jpg");
+	.box {
+		max-width: 322px;
+		text-align: center;
+		padding: 12px 24px;
+		border: 1px solid $grey;
+		h1,
+		h2 {
+			margin: 10px 0;
+		}
+		h1 {
+			font-size: 48px;
+		}
+		h2 {
+			font-size: 24px;
+		}
+	}
+	nav {
+		position: absolute;
+		left: 50%;
+		transform: translate(-50%, 50%);
+		bottom: 0px;
+		ul {
+			display: flex;
+			@include reset-list;
+			li {
+				&:first-child {
+					a {
+						border-top-left-radius: 4px;
+						border-bottom-left-radius: 4px;
+					}
+				}
+				&:last-child {
+					a {
+						border-top-right-radius: 4px;
+						border-bottom-right-radius: 4px;
+					}
+				}
+				a {
+					background-color: $grey;
+					color: black;
+					padding: 8px 16px;
+					text-decoration: none;
+					&:hover {
+						background-color: $grey-3;
+					}
+				}
+			}
+		}
+	}
+}
