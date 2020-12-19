@@ -30,9 +30,15 @@
    2. Watch this one also: [Sass Crash Course](https://youtu.be/nu5mdN2JIwM)
    3. This one is the longest course here, watch it if you want learn all available features off SASS go on: [Sass Tutorial for Beginners - CSS With Superpowers](https://youtu.be/_a5j7KoflTs)
 2. Terminal:
-   1. Read this article ([What is Command Line Interface (CLI)?](https://www.w3schools.com/whatis/whatis_cli.asp)) and practice basic Basic Commands in your terminal. Try to create delete and navigate in finder using these commands.
+   - Read this article ([What is Command Line Interface (CLI)?](https://www.w3schools.com/whatis/whatis_cli.asp)) and practice basic Basic Commands in your terminal. Try to create delete and navigate in finder using these commands.
 3. Gulp:
-   1. Watch this video and try to setup your own Gulp project: [Browsersync + Sass + Gulp in 15 minutes](https://youtu.be/q0E1hbcj-NI)
+   - Watch this video and try to setup your own Gulp project: [Browsersync + Sass + Gulp in 15 minutes](https://youtu.be/q0E1hbcj-NI)
+4. Now your favorite task 😅:
+   - Develop mobile and desktop version of [this page](https://www.figma.com/file/1piqLskEUWcCbRzS7lNK60/Prosecurse-Figma-Legal-Web-Page-Template-Community?node-id=964%3A5456). 
+   - **Requirements:**
+     - You have to use SASS.
+     - Website must be responsive.
+     - Deadline 03.01.2021.
 ## Some other useful resources:
 
 - Other preprocessor:
